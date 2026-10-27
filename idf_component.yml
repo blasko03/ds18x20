@@ -15,10 +15,12 @@ targets:
   - esp32s3
   - esp32s31
 dependencies:
-  esp-idf-lib/esp_idf_lib_helpers:
-    version: "*"
-  esp-idf-lib/onewire:
-    version: "*"
+  esp_idf_lib_helpers:
+    git: https://github.com/blasko03/esp_idf_lib_helpers.git
+    version: main
+  onewire:
+    git: https://github.com/blasko03/onewire.git
+    version: main
 maintainers:
   - Ruslan V. Uss (@UncleRus) <unclerus@gmail.com>
 url: https://github.com/esp-idf-lib/core
